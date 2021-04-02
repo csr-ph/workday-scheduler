@@ -1,5 +1,12 @@
 //create variable to get ID of currentDay
 //
-var currentDate = document.getElementById("currentDay");
+$(document).ready(function(){
+    const currentDate = $("#currentDay");
+    console.log(dayjs().$d);
 
+    currentDate.text(dayjs().$d);
+
+    
+
+});
 
